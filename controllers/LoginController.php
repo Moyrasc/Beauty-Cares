@@ -16,18 +16,17 @@ class LoginController
         echo "Desde logout";
     }
 
-    public static function olvide()
+    public static function olvide(Router $router)
     {
-        echo "Desde olvide (password)";
+        $router->render('auth/olvide', []);
     }
 
     public static function recuperar()
     {
-        echo "Desde recuperar (password)";
     }
 
-    public static function crear()
+    public static function crear(Router $router)
     {
-        echo "Desde crear cuenta";
+        $router->render('auth/crear-cuenta', []);
     }
 }
