@@ -1,0 +1,21 @@
+{
+    "name": "noe_sola/beauty_cares",
+    "description": "Proyecto PHP 8, MVC, SQL, SASS y Gulp",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\": "./controllers",
+            "Model\\": "./models"
+        }
+    },
+    "authors": [
+        {
+            "name": "Moyrasc",
+            "email": "noemisolac@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
