@@ -14,6 +14,7 @@ $router->get('/logout', [LoginController::class, 'logout']);
 
 //Confirmar Cuenta
 $router->get('/confirmar-cuenta', [LoginController::class, 'confirmar']);
+$router->get('/mensaje', [LoginController::class, 'mensaje']);
 
 //Recuperar Password
 $router->get('/olvide', [LoginController::class, 'olvide']);
